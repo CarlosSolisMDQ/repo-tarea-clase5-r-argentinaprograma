@@ -1,0 +1,15 @@
+#proximo-ejercicio{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(66, 66, 250);
+    color: white;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+#proximo-ejercicio:hover{
+    font-weight: bold;
+    background-color:blueviolet;
+}
+

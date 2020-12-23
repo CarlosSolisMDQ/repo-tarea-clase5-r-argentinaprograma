@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tarea1.css">
+    <title>tarea 1</title>
+</head>
+<body>
+    <h1><span id="saludo">Bienvenido!</span></h1>
+    <form onsubmit = "return false">
+        <p>nombre</p>
+        <input type="text" id="nombre" />
+        <p>segundo nombre</p>
+        <input type="text" id="segundo-nombre" />
+        <p>apellido</p>
+        <input type="text" id="apellido"/>
+        <p>edad</p>
+        <input type="number" id="edad"/>
+        <button id="boton">Enviar datos</button>
+        
+    </form>
+    <p>Sus datos son: <span id="ïnformacion"></span>  </p>
+    <button id="proximo-ejercicio" onclick="window.location.href='./tarea2.html'">Proxima tarea</button>
+    <script src="tarea1.js"></script>
+</body>
+</html>
